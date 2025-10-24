@@ -1,10 +1,10 @@
 
-🎓 Student Performance Prediction and Fairness Analysis
+# 🎓 Student Performance Prediction and Fairness Analysis
 
 This project explores student academic performance prediction using machine learning, combined with data analytics and bias detection/mitigation techniques.
 The goal is to understand how different demographic, academic, and social factors influence student grades — and ensure that the predictive model is fair and unbiased toward protected attributes like gender and past academic failures.
 
-🧠 Project Overview
+##🧠 Project Overview
 
 The dataset used here comes from the UCI Machine Learning Repository, containing student data from two Portuguese schools:
 
@@ -26,7 +26,7 @@ Bias detection using aif360
 
 Bias mitigation using the Reweighing algorithm
 
-🗂️ Dataset Description
+##🗂️ Dataset Description
 
 File: student-mat.csv
 Rows: 395
@@ -90,7 +90,7 @@ Used Label Encoding for binary features like:
 
 sex, address, famsize, schoolsup, etc.
 
-📊 Exploratory Data Analysis (EDA)
+##📊 Exploratory Data Analysis (EDA)
 
 Several insights were drawn through visualizations:
 
@@ -118,7 +118,7 @@ Male students have slightly higher average grades (Mean: 54.57%) than females (M
 
 Students who have never failed before show much higher performance (Mean: 56.26%) than those who failed before (Mean: 36.32%).
 
-🤖 Machine Learning Model
+##🤖 Machine Learning Model
 Model: Logistic Regression
 
 A binary classification model was trained to predict whether a student passes or fails (G3 >= 10).
@@ -145,7 +145,7 @@ Confusion Matrix:
 
 ✅ The model performed well with 91.6% accuracy, showing strong balance between precision and recall.
 
-⚖️ Bias Detection & Mitigation
+##⚖️ Bias Detection & Mitigation
 
 Bias was tested against two protected attributes:
 
